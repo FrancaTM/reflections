@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Ajudou por agregar apenas as alterações efetuadas no arquivo, simplificando
+assim a quantidade de texto a ser analisado em busca de possíveis erros
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Ajuda muito principalmente em termos de desenvolvimento de habilidades de programação e de melhor escrita de códigos. Afinal de contas escrever códigos, assim como aprender a escrever bons textos, demanda muita prática e análise de trabalhos passados em busca de pontos a serem melhorados
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    A vantagem de poder escolher quando salvar algo (Git) é muito melhor para você ter o controle sobre tarefas que foram executas (iniciadas e concluídas) sem quebrar o seu fluxo de trabalho em partes intermediárias. No caso de sistemas que possuem a funcionalidade de salvar um conteúdo automaticamente, essa característica fornece uma tranquilidade maior para o usuário da ferramenta, principalmente para cópias de segurança e evitar a perda de trabalhos mais complexos e demorados. Os contras de cada abordagem seriam, no caso do Git, a possibilidade de perda de uma unidade de trabalho antes da execução de um commit significa perder de forma irreversível todo o trabalho executado, já no caso do Google docs, seria muito provável que a funcionalidade de salvar automaticamente acabasse dificultando um pouco o controle sobre unidades de trabalho completas, justamente por salvar automaticamente cada alteração executada em um arquivo qualquer 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   No caso do Git, um dos motivos poderiam ser a questão de otimização e simplificação do processo de controle de arquivos alterados, pois existe uma alta probabilidade de que em um projeto, vários trechos de código e arquivos distintos sejam alterados de uma vez só. No caso do Google docs seria justamente o oposto, é mais provável que um único arquivo de interesse seja alterado e trabalhado em um dado instante de tempo
+
+How can you use the commands git log and git diff to view the history of files?
+
+   O comando “git log” me mostrará o histórico de todos os commits executados, bem como suas respectivas descrições e os respectivos ID’s dos commits. Utilizar o comando “git diff” passando como argumentos os ID’s de dois commits sequenciais irá permitir identificar todas as alterações (adições e exclusões) efetuadas na versão atual dos arquivos em relação às suas respectivas versões anteriores
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   Pelo motivo de criar pontos de referência, através de commit’s, que me permitam recuperar versões estáveis anteriores a possíveis bug’s inseridos nos códigos
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   Quero utilizar o Git para gerenciar meu portfólio de projetos pessoais e profissionais de programação
