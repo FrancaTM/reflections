@@ -1,32 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-O Git cria os arquivos necessários para manter o histórico e acompanhar as alterações efetuadas nos arquivos presentes no repositório/diretório
+Git creates the structure necessary to maintain the history and track the changes made to the files in a directory
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Staging é diferente do diretório de trabalho e do repositório por ser uma área intermediária e temporária para controle das alterações efeutadas em arquivos presentes no diretório de trabalho. Isso permite que alterações temporárias sejam armazenadas sem ser necessária a execução de um commit para armazenar tais mudanças
+Stage is different from the working directory and the repository because it is an intermediate and temporary area to control the changes made to files in the working directory. This allows temporary changes to be stored without the need for a commit execution to store temporary changes
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-Adicionando à staging area somente os arquivos modificados que possuem relação com uma determinada mudança lógica
+Adding to the staging area only modified files that relate to a particular logical change
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-Uma das situações seria quando eu preciso manter versões semelhantes, porém independentes do meu código para fins de experimentação, testes, entre outros, em que eu não quero a minha versão principal e estável de código corra o risco de ser quebrada por possíveis erros. Branches permitem que essa divisão lógica ocorra através de diferentes ramos, que possuem versões levemente diferentes da versão principal do código
+One situation is when I need to keep similar versions, however independent of my code for experimentation, tests, among others, in which I do not want my main stable version of code in risk of being broken because possible errors. Branches that make this kind of logical division through different branches, which take different versions of the main version of the code
 
 How do the diagrams help you visualize the branch structure?
 
-Eles deixam clara a forma como um histórico que envolve vários commits e possíveis branches está estruturado ao longo do tempo em que mudanças lógicas ocorrem no projeto presente em um repositório
+They make it clear the history that involves multiple commits and show branches structure over time in which logical changes occur on a project present in a repository
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-Efetuar um merge entre duas branches fará com que todas as alterações efetuadas em cada uma das branches façam parte de uma única branch. Uma ação de merge é representada através de um commit em uma única branch, pois se trata da branch que possui o commit resultante da ação de merge
+Making a merge between two branches, all of which, as carried out in each of the branchs, form part of a single branch. A merge action is represented by a commit in a single branch, as it is the branch that was checked out before the merge action
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-Com merges automático não é necessário analisar cada detalhe relacionado a uma mudança para efetuar um commit, o que poupa bastante tempo e trabalho. Merges manuais por sua vez permitem que em casos de conflito seja possível que o programador analise os conflitos e decida a melhor opção a ser tomada com relação ao que deve permanecer e o que deve deixar de existir em um arquivo fonte
+With an automatic merge it is not necessary to analyze every detail related to a change in order to make a commit, which saves a lot of time and work. Manual merges in turn make it possible for the programmer to analyze possible conflicts between file versions and decide a better option to be taken regarding what should remain and which should no longer exist in a source file
