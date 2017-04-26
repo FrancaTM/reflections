@@ -26,3 +26,7 @@ the diagram the way we do?
 
 Efetuar um merge entre duas branches fará com que todas as alterações efetuadas em cada uma das branches façam parte de uma única branch. Uma ação de merge é representada através de um commit em uma única branch, pois se trata da branch que possui o commit resultante da ação de merge
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Com merges automático não é necessário analisar cada detalhe relacionado a uma mudança para efetuar um commit, o que poupa bastante tempo e trabalho. Merges manuais por sua vez permitem que em casos de conflito seja possível que o programador analise os conflitos e decida a melhor opção a ser tomada com relação ao que deve permanecer e o que deve deixar de existir em um arquivo fonte
