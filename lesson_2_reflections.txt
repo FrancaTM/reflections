@@ -7,3 +7,22 @@ What value do you think it offers?
 
 Staging é diferente do diretório de trabalho e do repositório por ser uma área intermediária e temporária para controle das alterações efeutadas em arquivos presentes no diretório de trabalho. Isso permite que alterações temporárias sejam armazenadas sem ser necessária a execução de um commit para armazenar tais mudanças
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Adicionando à staging area somente os arquivos modificados que possuem relação com uma determinada mudança lógica
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Uma das situações seria quando eu preciso manter versões semelhantes, porém independentes do meu código para fins de experimentação, testes, entre outros, em que eu não quero a minha versão principal e estável de código corra o risco de ser quebrada por possíveis erros. Branches permitem que essa divisão lógica ocorra através de diferentes ramos, que possuem versões levemente diferentes da versão principal do código
+
+How do the diagrams help you visualize the branch structure?
+
+Eles deixam clara a forma como um histórico que envolve vários commits e possíveis branches está estruturado ao longo do tempo em que mudanças lógicas ocorrem no projeto presente em um repositório
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Efetuar um merge entre duas branches fará com que todas as alterações efetuadas em cada uma das branches façam parte de uma única branch. Uma ação de merge é representada através de um commit em uma única branch, pois se trata da branch que possui o commit resultante da ação de merge
+
