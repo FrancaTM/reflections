@@ -1,34 +1,33 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Ajudou por agregar apenas as alterações efetuadas no arquivo, simplificando
-assim a quantidade de texto a ser analisado em busca de possíveis erros
+	Helped in aggregating just the changes made to the file, simplifying the amount of text to be analyzed for possible errors
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    Ajuda muito principalmente em termos de desenvolvimento de habilidades de programação e de melhor escrita de códigos. Afinal de contas escrever códigos, assim como aprender a escrever bons textos, demanda muita prática e análise de trabalhos passados em busca de pontos a serem melhorados
+	It helps a lot mainly in terms of developing programming skills and better code writing. After all, writing code as well as learning to write good texts requires a lot of practice and analysis of past work in search of points to improve
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    A vantagem de poder escolher quando salvar algo (Git) é muito melhor para você ter o controle sobre tarefas que foram executas (iniciadas e concluídas) sem quebrar o seu fluxo de trabalho em partes intermediárias. No caso de sistemas que possuem a funcionalidade de salvar um conteúdo automaticamente, essa característica fornece uma tranquilidade maior para o usuário da ferramenta, principalmente para cópias de segurança e evitar a perda de trabalhos mais complexos e demorados. Os contras de cada abordagem seriam, no caso do Git, a possibilidade de perda de uma unidade de trabalho antes da execução de um commit significa perder de forma irreversível todo o trabalho executado, já no caso do Google docs, seria muito provável que a funcionalidade de salvar automaticamente acabasse dificultando um pouco o controle sobre unidades de trabalho completas, justamente por salvar automaticamente cada alteração executada em um arquivo qualquer 
+    The advantage of being able to choose when to save something (Git) is much better for you to have control over tasks that were executed (started and completed) without breaking your workflow into intermediate parts. For systems that have the ability to save content automatically, this feature provides greater peace of mind for the user of the tool, especially for backups and avoiding the loss of more complex and time-consuming jobs. The cons of each approach would be, in the case of Git, the possibility of losing a unit of work before the execution of a commit means to lose irreversibly all the work executed, in the case of Google docs, it would be very likely that the functionality automatically ended up making it somewhat difficult to control complete work units, precisely by automatically saving every change made to any file
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-   No caso do Git, um dos motivos poderiam ser a questão de otimização e simplificação do processo de controle de arquivos alterados, pois existe uma alta probabilidade de que em um projeto, vários trechos de código e arquivos distintos sejam alterados de uma vez só. No caso do Google docs seria justamente o oposto, é mais provável que um único arquivo de interesse seja alterado e trabalhado em um dado instante de tempo
+   In the case of Git, one of the reasons could be the optimization and simplification of the process for controlling changed files, since there is a high probability that in a project, several pieces of code and different files will be changed at once. In the case of Google docs would be just the opposite, it is more likely that a single file of interest will be changed and worked at a given time
 
 How can you use the commands git log and git diff to view the history of files?
 
-   O comando “git log” me mostrará o histórico de todos os commits executados, bem como suas respectivas descrições e os respectivos ID’s dos commits. Utilizar o comando “git diff” passando como argumentos os ID’s de dois commits sequenciais irá permitir identificar todas as alterações (adições e exclusões) efetuadas na versão atual dos arquivos em relação às suas respectivas versões anteriores
+   The "git log" command will show me the history of all executed commits, as well as their respective descriptions and their commit IDs. Using the "git diff" command passing as arguments the ID's of two sequential commits will allow you to identify all the changes (additions and deletions) made to the current version of the files in relation to their previous versions
 
 How might using version control make you more confident to make changes that
 could break something?
 
-   Pelo motivo de criar pontos de referência, através de commit’s, que me permitam recuperar versões estáveis anteriores a possíveis bug’s inseridos nos códigos
+   For the reason of creating reference points, through commit's, that allow me to recover previous stable versions to possible bug's inserted in the code
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-   Quero utilizar o Git para gerenciar meu portfólio de projetos pessoais e profissionais de programação
+   I want to use Git to manage my portfolio of personal and professional programming projects
