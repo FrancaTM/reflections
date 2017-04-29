@@ -4,3 +4,8 @@ For a couple of reasons, like:
   - Backup reasons
   - Collaborative and remote work
   - Possibility of accessing project files anywhere, anytime
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+Automatic pulls probably would cause a lot of trouble for projects with multiple programmers working on it. In that case the best option is to decide when I want to pull versions from the remote
