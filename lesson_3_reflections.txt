@@ -20,3 +20,7 @@ use one instead of another?
 - Branches:
 	When I want slightly different versions of the same project that I'm working on
 
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A benefit of this would be the possibility of offline working, since it is not necessary to have an internet connection in order to verify the last known state of the remote
