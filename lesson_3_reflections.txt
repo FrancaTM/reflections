@@ -24,3 +24,8 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
 A benefit of this would be the possibility of offline working, since it is not necessary to have an internet connection in order to verify the last known state of the remote
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+I could use some online storage service and some communications application to TRY to coordinate changes with my team, but that certainly would be really hard. It would be easier to control who makes a change and when through communication (since no one wants to break the whole project), but it would be harder to track the changes made and guarantee that no one breaks the code
