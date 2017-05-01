@@ -29,3 +29,8 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
 I could use some online storage service and some communications application to TRY to coordinate changes with my team, but that certainly would be really hard. It would be easier to control who makes a change and when through communication (since no one wants to break the whole project), but it would be harder to track the changes made and guarantee that no one breaks the code
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+A common case would be when I want to test a new approach for something in the project (e. g. some deep change in the visual design of and app, or some great new functionality that I'm not certain if it will be a good choice, etc.), but I don't want to broke the current working version of the project. In the other hand, changes made directly to the master branch would save time since I can work directly with the main version of the changes, for a given app for instance
